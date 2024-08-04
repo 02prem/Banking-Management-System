@@ -1,0 +1,11 @@
+1. Run the data.c file first by given commands:
+$ gcc data.c -o data
+$ ./data
+
+2. Run the server
+$ gcc -pthread server.c -o server
+$ ./server
+
+3. Run the client
+$ gcc client.c -o client
+$ ./client
